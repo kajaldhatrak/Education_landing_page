@@ -1,0 +1,331 @@
+body
+{
+    margin: 0;
+    font-family: 'Andada Pro', serif;
+}
+
+  
+.logo img
+{
+    width: 200px;
+    height: 60px;
+}
+.bg
+{
+    background-color: white;
+    /* border-bottom: purple; */
+}
+
+/* here */
+.cbt
+{
+    border: solid 1px;
+    color: white;
+    background-color: purple;
+}
+
+/* home section */
+.basic
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+    column-gap: 5px;
+    width: 800px;
+    height: 400px;
+    
+    margin: auto;
+    background: #91cdeb;
+    background: linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+    background: -webkit-linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+    background: -moz-linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+
+}
+
+.img-g img
+{
+    border-radius: 10px;
+}
+.enroll
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+.enroll button
+{
+    font-size: 20px;
+    color: white;
+    background: #514587;
+background: linear-gradient(178deg,#514587 0%, #c44be6 80%);
+background: -webkit-linear-gradient(178deg,#514587 0%, #c44be6 80%);
+background: -moz-linear-gradient(178deg,#514587 0%, #c44be6 80%);
+    
+}
+
+.div2
+{
+    border: solid 1px;
+    border-radius: 10px;
+    width: 550px;
+    height: auto;
+    padding: 10px;
+  color: white;
+  margin-top: -30px;
+  margin-left: 400px;
+  background: #514587;
+background: linear-gradient(178deg,#514587 0%, #c44be6 80%);
+background: -webkit-linear-gradient(178deg,#514587 0%, #c44be6 80%);
+background: -moz-linear-gradient(178deg,#514587 0%, #c44be6 80%);
+padding: 20px;
+  
+}
+
+/* offers */
+.offers
+{
+    background: #91cdeb;
+    background: linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+    background: -webkit-linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+    background: -moz-linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+    padding:20px;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 80px;
+}
+.container .off
+{
+    width: 300px;
+    height: 150px;
+    border: solid 1px;
+    background-color: lightblue;
+    padding: 20px;
+   
+    text-align: center;
+}
+.container .off button
+{
+    background: #514587;
+    background: linear-gradient(178deg,#514587 0%, #c44be6 80%);
+    background: -webkit-linear-gradient(178deg,#514587 0%, #c44be6 80%);
+    background: -moz-linear-gradient(178deg,#514587 0%, #c44be6 80%);
+    color: white;
+}
+/* about */
+.about
+{
+    border: solid 1px;
+    padding: 30px;
+    margin: 50px;
+    margin-right: 0;
+    border-radius: 10px;
+    background: #91cdeb;
+    background: linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+    background: -webkit-linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+    background: -moz-linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+}
+.st{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.st button
+{
+    width: 200px;
+    height: 60px;
+    background: #514587;
+    border-radius: 10px;
+    margin-left: 250px;
+    background: linear-gradient(178deg,#514587 0%, #c44be6 80%);
+    background: -webkit-linear-gradient(178deg,#514587 0%, #c44be6 80%);
+    background: -moz-linear-gradient(178deg,#514587 0%, #c44be6 80%);
+}
+.st2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+   
+}
+
+.st2 table
+{
+    border: solid 2px purple;
+    border-radius: 10px;
+    padding: 20px;
+   
+
+   
+}
+/* curriculum section */
+.curriculum
+{
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+    margin:30px;
+    background: #91cdeb;
+    background: linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+    background: -webkit-linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+    background: -moz-linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+}
+.d1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   align-items: center;
+
+}
+.d1 ol
+{
+    list-style-image: url("Images/tick.png");
+}
+.curriculum .sti
+{
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.d1 button
+{
+    height:60px;
+    width: 200px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #514587;
+    background: linear-gradient(178deg,#514587 0%, #c44be6 80%);
+    background: -webkit-linear-gradient(178deg,#514587 0%, #c44be6 80%);
+    background: -moz-linear-gradient(178deg,#514587 0%, #c44be6 80%);
+}
+.d2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+.d21
+{
+    border: solid 2px purple;
+    padding: 5px;
+    border-radius: 20px;
+    width: 350px;
+    
+}
+.d21 img
+{
+    margin-left: 220px;
+    
+}
+.d23
+{
+    margin-left: -200px;
+}
+.benefits
+{
+    width: 1000px;
+    height: auto;
+    padding: 20px;
+    border: solid 1px;
+    border-radius: 20px;
+    margin-top: -90px;
+    margin-left:350px;
+    margin-bottom: 40px;
+    background: #91cdeb;
+    background: linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+    background: -webkit-linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+    background: -moz-linear-gradient(246deg,#91cdeb 0%, #dfe3d7 80%);
+
+}
+.course
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 50px;
+    margin-top: 25px;
+}
+.course ol
+{
+    list-style-image: url("Images/lock-svg.svg");
+}
+
+/* learn */
+.learn{
+    background-color: lightblue;
+    padding: 30px;
+}
+
+.learn img
+{
+    width: 200px;
+    height: 100px;
+}
+.learn td{
+    text-align: center;
+}
+
+/* faq */
+.faq
+{
+    margin:30px 200px 20px 200px;
+    padding: 20px;
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: rgb(214, 160, 214);
+    
+}
+.faq h1
+{
+    color: purple;
+    font-size: larger;
+}
+.faq a
+{
+    text-decoration: none;
+}
+.que
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+.que p
+{
+    margin-left: 170px;
+}
+.que input
+{
+    border: soli 2px;
+    color:white;
+    background-color: rgb(148, 49, 49);;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+.que button
+{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    padding: 8px;
+    color: red;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 25px;
+}
+.foot
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    color: white;
+    background-color: black;
+   line-height: 1.5;
+   padding: 10px;
+}
